@@ -74,16 +74,16 @@ importers:
       jest: 27.3.1
       lodash: 4.17.21
       prettier: 2.4.1
-      rollup: 2.59.0
+      rollup: 2.60.1
       rollup-plugin-terser: 7.0.2
       ts-jest: 27.0.7
       typescript: 4.3.5
     dependencies:
       '@optimize-lodash/transform': link:../transform
-      '@rollup/pluginutils': 4.1.0_rollup@2.59.0
+      '@rollup/pluginutils': 4.1.0_rollup@2.60.1
     devDependencies:
-      '@rollup/plugin-commonjs': 21.0.1_rollup@2.59.0
-      '@rollup/plugin-node-resolve': 13.0.6_rollup@2.59.0
+      '@rollup/plugin-commonjs': 21.0.1_rollup@2.60.1
+      '@rollup/plugin-node-resolve': 13.0.6_rollup@2.60.1
       '@tsconfig/node12': 1.0.9
       '@types/estree': 0.0.50
       '@types/jest': 27.0.2
@@ -99,8 +99,8 @@ importers:
       jest: 27.3.1
       lodash: 4.17.21
       prettier: 2.4.1
-      rollup: 2.59.0
-      rollup-plugin-terser: 7.0.2_rollup@2.59.0
+      rollup: 2.60.1
+      rollup-plugin-terser: 7.0.2_rollup@2.60.1
       ts-jest: 27.0.7_aa63873380b4bb2f237e2e46aef8ee69
       typescript: 4.3.5
 
@@ -967,38 +967,38 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@rollup/plugin-commonjs/21.0.1_rollup@2.59.0:
+  /@rollup/plugin-commonjs/21.0.1_rollup@2.60.1:
     resolution: {integrity: sha512-EA+g22lbNJ8p5kuZJUYyhhDK7WgJckW5g4pNN7n4mAFUM96VuwUnNT3xr2Db2iCZPI1pJPbGyfT5mS9T1dHfMg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
       rollup: ^2.38.3
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.59.0
+      '@rollup/pluginutils': 3.1.0_rollup@2.60.1
       commondir: 1.0.1
       estree-walker: 2.0.2
       glob: 7.2.0
       is-reference: 1.2.1
       magic-string: 0.25.7
       resolve: 1.20.0
-      rollup: 2.59.0
+      rollup: 2.60.1
     dev: true
 
-  /@rollup/plugin-node-resolve/13.0.6_rollup@2.59.0:
+  /@rollup/plugin-node-resolve/13.0.6_rollup@2.60.1:
     resolution: {integrity: sha512-sFsPDMPd4gMqnh2gS0uIxELnoRUp5kBl5knxD2EO0778G1oOJv4G1vyT2cpWz75OU2jDVcXhjVUuTAczGyFNKA==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
       rollup: ^2.42.0
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.59.0
+      '@rollup/pluginutils': 3.1.0_rollup@2.60.1
       '@types/resolve': 1.17.1
       builtin-modules: 3.2.0
       deepmerge: 4.2.2
       is-module: 1.0.0
       resolve: 1.20.0
-      rollup: 2.59.0
+      rollup: 2.60.1
     dev: true
 
-  /@rollup/pluginutils/3.1.0_rollup@2.59.0:
+  /@rollup/pluginutils/3.1.0_rollup@2.60.1:
     resolution: {integrity: sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
@@ -1007,10 +1007,10 @@ packages:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
       picomatch: 2.3.0
-      rollup: 2.59.0
+      rollup: 2.60.1
     dev: true
 
-  /@rollup/pluginutils/4.1.0_rollup@2.59.0:
+  /@rollup/pluginutils/4.1.0_rollup@2.60.1:
     resolution: {integrity: sha512-TrBhfJkFxA+ER+ew2U2/fHbebhLT/l/2pRk0hfj9KusXUuRXd2v0R58AfaZK9VXDQ4TogOSEmICVrQAA3zFnHQ==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
@@ -1018,7 +1018,7 @@ packages:
     dependencies:
       estree-walker: 2.0.2
       picomatch: 2.3.0
-      rollup: 2.59.0
+      rollup: 2.60.1
     dev: false
 
   /@sinonjs/commons/1.8.3:
@@ -4666,20 +4666,20 @@ packages:
       glob: 7.2.0
     dev: true
 
-  /rollup-plugin-terser/7.0.2_rollup@2.59.0:
+  /rollup-plugin-terser/7.0.2_rollup@2.60.1:
     resolution: {integrity: sha512-w3iIaU4OxcF52UUXiZNsNeuXIMDvFrr+ZXK6bFZ0Q60qyVfq4uLptoS4bbq3paG3x216eQllFZX7zt6TIImguQ==}
     peerDependencies:
       rollup: ^2.0.0
     dependencies:
       '@babel/code-frame': 7.14.5
       jest-worker: 26.6.2
-      rollup: 2.59.0
+      rollup: 2.60.1
       serialize-javascript: 4.0.0
       terser: 5.7.1
     dev: true
 
-  /rollup/2.59.0:
-    resolution: {integrity: sha512-l7s90JQhCQ6JyZjKgo7Lq1dKh2RxatOM+Jr6a9F7WbS9WgKbocyUSeLmZl8evAse7y96Ae98L2k1cBOwWD8nHw==}
+  /rollup/2.60.1:
+    resolution: {integrity: sha512-akwfnpjY0rXEDSn1UTVfKXJhPsEBu+imi1gqBA1ZkHGydUnkV/fWCC90P7rDaLEW8KTwBcS1G3N4893Ndz+jwg==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
